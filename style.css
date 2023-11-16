@@ -677,3 +677,33 @@ transition: all ease 0.6s;
     position: absolute;
     justify-content: space-between;
 }
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens smaller than 600px */
+    #nav {
+        padding: 0 20px;
+    }
+
+    #nav .btn {
+        width: 80px;
+        margin: 3px -10px;
+    }
+
+
+    #about-us img,
+.elem img {
+    max-width: 100%;
+    height: auto;
+}
+
+#nav h4 {
+    font-size: 1.2rem;
+}
+
+#page1 h1 {
+    font-size: 4vw;
+}
+
+
+    /* Add more styles for smaller screens as needed */
+}
